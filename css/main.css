@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  padding: 1.5rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.author {
+  font-style: italic;
+}
+
+div {
+  display: inline-block;
+  max-width: 20%;
+  padding: 1.5rem;
+  }
+
+.box1 {
+  background-color: #e2e2e2
+}
+
+.box2 {
+  background-color: #ccc;
+}
+
+.box3 {
+  background-color: #aaa;
+}
+
+.box4 {
+  background-color: #999;
+}

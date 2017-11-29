@@ -30,6 +30,7 @@ div {
   display: inline-block;
   max-width: 20%;
   padding: 1.5rem;
+  border-left: solid;
   }
 
 .box1 {

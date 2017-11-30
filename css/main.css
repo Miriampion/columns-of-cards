@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 'Roboto', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -15,6 +15,7 @@ h2 {
 }
 
 body {
+  background-color: #f2f2f2;
   margin: 0;
 }
 
@@ -41,7 +42,7 @@ div {
   padding: 1.5rem;
   border-left: solid;
   float: left;
-  min-height:
+  font-size: .875rem;
   }
 
 .box1 {
@@ -60,7 +61,7 @@ div {
   background-color: #999;
 }
 
-a {
+.btn {
   padding: .75rem;
   text-decoration: none;
   border:3px solid #333;
@@ -68,8 +69,13 @@ a {
   border-radius: 8px;
   background-color: #333;
   color: #fff;
+  display:inline-block;
 }
 
-a:hover {
-  background-color: #999
+.btn:hover {
+  background-color: #999 ;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
